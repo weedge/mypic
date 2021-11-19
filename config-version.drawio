@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T05:26:12.905Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="7reanQ9tpZ_0n-XBs67t" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T07:28:06.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HKxEN-RVfLiPz4rJ9wpA" version="15.7.4" type="github">
   <diagram id="_ChNdQXP11eEr1NdkdWS" name="Page-1">
     <mxGraphModel dx="946" dy="608" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -127,7 +127,7 @@
         <mxCell id="61nBoodqr09tI2GWO0EU-2" value="weedge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="726.5" y="1125" width="52" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="61nBoodqr09tI2GWO0EU-3" value="配置实例关系&amp;nbsp;当前服务版本和当前conf版本是1对多的场景，而历史服务快照版本和历史conf快照版本是多对多的场景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="61nBoodqr09tI2GWO0EU-3" value="配置实体关系&amp;nbsp;当前服务版本和当前conf版本是1对多的场景，而历史服务快照版本和历史conf快照版本是多对多的场景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="90.5" y="1125" width="629" height="18" as="geometry" />
         </mxCell>
       </root>
