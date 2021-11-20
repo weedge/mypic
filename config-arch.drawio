@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T04:02:40.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="v6C35S-TzrcN1vJm9IC9" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-20T04:09:15.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="WFCpbjAC9ahQuZCKzsZY" version="15.7.4" type="github">
   <diagram id="dFZDkdw9oR6leH0Qqh9Z" name="Page-1">
     <mxGraphModel dx="946" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-29" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;dashed=1;dashPattern=1 4;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="790" height="430" as="geometry" />
+        </mxCell>
         <mxCell id="uvSu8wLFIg_Yb7Uv35T6-1" value="conf-dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="665" y="287.5" width="120" height="60" as="geometry" />
         </mxCell>
@@ -96,6 +99,12 @@
         </mxCell>
         <mxCell id="uvSu8wLFIg_Yb7Uv35T6-28" value="w/r" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="605" y="400" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-30" value="conf 管理配置交互框架" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="530" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-31" value="weedge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="695" y="530" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
