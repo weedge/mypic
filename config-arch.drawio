@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T09:27:29.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HqudvLLLboZ-TdtefRW7" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-20T09:59:44.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Dgjicn8Vk3jpfGq3b1OO" version="15.7.4" type="github">
   <diagram id="dFZDkdw9oR6leH0Qqh9Z" name="Page-1">
     <mxGraphModel dx="946" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -144,11 +144,11 @@
         <mxCell id="It9iDv5bokgyJn3uPW8k-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;dashed=1;dashPattern=1 1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="301.5" y="327.5" width="245.5" height="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="It9iDv5bokgyJn3uPW8k-6" value="管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="686" y="532" width="40" height="20" as="geometry" />
+        <mxCell id="It9iDv5bokgyJn3uPW8k-6" value="管理配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="676" y="532" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="It9iDv5bokgyJn3uPW8k-7" value="发布" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="532" width="40" height="20" as="geometry" />
+        <mxCell id="It9iDv5bokgyJn3uPW8k-7" value="发布更新配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="532" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="It9iDv5bokgyJn3uPW8k-8" value="region/zone" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="48" y="254.5" width="80" height="20" as="geometry" />
