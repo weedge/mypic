@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T04:26:06.933Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="JopsogCB3QGvI06iU4Yk" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-20T04:41:22.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="d9yjGcAZ3oRQlFNkAHY-" version="15.7.4" type="github">
   <diagram id="dFZDkdw9oR6leH0Qqh9Z" name="Page-1">
     <mxGraphModel dx="946" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -111,7 +111,7 @@
         <mxCell id="uvSu8wLFIg_Yb7Uv35T6-31" value="weedge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="666" y="530" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-34" value="discovery service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontColor=none;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-34" value="discovery service&lt;br&gt;(etcd/zk)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontColor=none;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="137" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uvSu8wLFIg_Yb7Uv35T6-35" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;fontColor=none;exitX=1;exitY=0;exitDx=0;exitDy=0;startFill=0;" edge="1" parent="1" source="uvSu8wLFIg_Yb7Uv35T6-3">
