@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T04:42:22.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="8Kg-suVwz0tw0vraMWTF" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-20T04:57:56.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="DhSlW0fmoi2Zs0P3nF5Y" version="15.7.4" type="github">
   <diagram id="dFZDkdw9oR6leH0Qqh9Z" name="Page-1">
     <mxGraphModel dx="946" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -91,10 +91,10 @@
           <mxGeometry x="238" y="422.5" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uvSu8wLFIg_Yb7Uv35T6-24" value="/confdashboard/v1/getcurversion 业务主动获取配置版本&lt;br&gt;/confdashboard/v1/getcurserverconf 业务主动获取配置&lt;br&gt;/confdashboard/v1/reportBizServConf 业务主动上报" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="261" y="250.5" width="310" height="50" as="geometry" />
+          <mxGeometry x="250" y="252" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-25" value="/{serviceType}/localconf/prepare &lt;br&gt;向业务服务发起配置准备工作&lt;br&gt;/{serviceType}/localconf/commit&amp;nbsp;&lt;br&gt;向业务服务发起提交修改配置&lt;br&gt;/{serviceType}/localconf/meta&lt;br&gt;向业务服务获取本地配置元数据" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="331" y="327.5" width="200" height="30" as="geometry" />
+        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-25" value="/{serviceType}/localconf/prepare &lt;br&gt;向多个业务服务ip发起配置准备工作&lt;br&gt;/{serviceType}/localconf/commit&amp;nbsp;&lt;br&gt;向多个业务服务ip发起提交修改配置&lt;br&gt;/{serviceType}/localconf/meta&lt;br&gt;向多个业务服务ip获取本地配置元数据" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="327.5" width="209" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uvSu8wLFIg_Yb7Uv35T6-26" value="w/r conf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="691" y="410" width="60" height="20" as="geometry" />
@@ -114,23 +114,23 @@
         <mxCell id="uvSu8wLFIg_Yb7Uv35T6-34" value="discovery service&lt;br&gt;(etcd/zk)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontColor=none;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="137" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-35" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;fontColor=none;exitX=1;exitY=0;exitDx=0;exitDy=0;startFill=0;" edge="1" parent="1" source="uvSu8wLFIg_Yb7Uv35T6-3">
+        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-35" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=none;exitX=1;exitY=0;exitDx=0;exitDy=0;startFill=1;" edge="1" parent="1" source="uvSu8wLFIg_Yb7Uv35T6-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="380" as="sourcePoint" />
             <mxPoint x="340" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-36" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;fontColor=none;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="uvSu8wLFIg_Yb7Uv35T6-1" target="uvSu8wLFIg_Yb7Uv35T6-34">
+        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=none;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;endFill=1;" edge="1" parent="1" source="uvSu8wLFIg_Yb7Uv35T6-1" target="uvSu8wLFIg_Yb7Uv35T6-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="380" as="sourcePoint" />
             <mxPoint x="490" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-37" value="notify get ip list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=none;" vertex="1" parent="1">
-          <mxGeometry x="509" y="196" width="90" height="20" as="geometry" />
+        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-37" value="register/notify (ip list)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="148" y="200" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-38" value="register" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=none;" vertex="1" parent="1">
-          <mxGeometry x="203" y="204" width="60" height="20" as="geometry" />
+        <mxCell id="uvSu8wLFIg_Yb7Uv35T6-39" value="register/notify (ip list)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="503" y="194" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
