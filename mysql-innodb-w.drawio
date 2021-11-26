@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T12:17:33.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="wa8c4mhjTFQqHLBZ9nQT" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T12:37:21.707Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uUOYhUQhAu8AyyyFt-G1" version="15.7.4" type="github">
   <diagram id="S992L737y4yIW5Ho0LRY" name="Page-1">
     <mxGraphModel dx="1773" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,8 +54,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9vFWIDzpB-WMlndjmJIf-133" value="7.将thread caches 写入binlog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="9vFWIDzpB-WMlndjmJIf-23">
-          <mxGeometry x="140" y="328" width="170" height="20" as="geometry" />
+        <mxCell id="9vFWIDzpB-WMlndjmJIf-133" value="7.将thread caches &lt;br&gt;写入binlog (xid, GTID)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#7EA6E0;" vertex="1" parent="9vFWIDzpB-WMlndjmJIf-23">
+          <mxGeometry x="150" y="322" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9vFWIDzpB-WMlndjmJIf-36" value="InnoDB" style="swimlane;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="80" width="620" height="480" as="geometry" />
@@ -68,8 +68,8 @@
             <mxPoint x="93" y="230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9vFWIDzpB-WMlndjmJIf-74" value="&lt;font color=&quot;#5a687d&quot;&gt;6.flush redo log&lt;br&gt;by &lt;span style=&quot;font-size: 10px&quot;&gt;fsync/fdatasync&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="9vFWIDzpB-WMlndjmJIf-36">
-          <mxGeometry x="198" y="385" width="110" height="30" as="geometry" />
+        <mxCell id="9vFWIDzpB-WMlndjmJIf-74" value="&lt;font&gt;6.flush redo log&lt;br&gt;by &lt;span style=&quot;font-size: 10px&quot;&gt;fsync/fdatasync&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#7EA6E0;" vertex="1" parent="9vFWIDzpB-WMlndjmJIf-36">
+          <mxGeometry x="198" y="383" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9vFWIDzpB-WMlndjmJIf-78" value="&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="9vFWIDzpB-WMlndjmJIf-36">
           <mxGeometry x="439" y="139" width="20" height="20" as="geometry" />
@@ -255,8 +255,8 @@
         <mxCell id="9vFWIDzpB-WMlndjmJIf-130" value="异步flush data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontColor=#5A687D;" vertex="1" parent="1">
           <mxGeometry x="551" y="198" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9vFWIDzpB-WMlndjmJIf-131" value="5. 将修改记录LSN&lt;br&gt;写入redo log buffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#5A687D;" vertex="1" parent="1">
-          <mxGeometry x="303" y="450" width="120" height="30" as="geometry" />
+        <mxCell id="9vFWIDzpB-WMlndjmJIf-131" value="5. 将修改记录LSN&lt;br&gt;xid 写入redo log buffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#5A687D;" vertex="1" parent="1">
+          <mxGeometry x="293" y="450" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9vFWIDzpB-WMlndjmJIf-132" value="" style="endArrow=classic;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;curved=1;dashed=1;entryX=0;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.53;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9vFWIDzpB-WMlndjmJIf-131" target="9vFWIDzpB-WMlndjmJIf-71">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -264,8 +264,8 @@
             <mxPoint x="540" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9vFWIDzpB-WMlndjmJIf-137" value="&lt;span style=&quot;color: rgb(36 , 41 , 46) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;防止数据丢失参数：&lt;br&gt;sync_binlog=1&lt;br&gt;&lt;/span&gt;&lt;p style=&quot;box-sizing: border-box ; margin: 0px 0px 16px ; font-size: 14px ; line-height: 26px ; padding: 0px ; color: rgb(36 , 41 , 46) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;innodb_flush_log_at_trx_commit=1&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#5A687D;" vertex="1" parent="1">
-          <mxGeometry x="20" y="575" width="230" height="90" as="geometry" />
+        <mxCell id="9vFWIDzpB-WMlndjmJIf-137" value="&lt;span style=&quot;color: rgb(36 , 41 , 46) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;防止数据丢失参数：&lt;br&gt;sync_binlog=1&lt;br&gt;&lt;/span&gt;&lt;p style=&quot;box-sizing: border-box ; margin: 0px 0px 16px ; font-size: 14px ; line-height: 26px ; padding: 0px ; color: rgb(36 , 41 , 46) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;innodb_flush_log_at_trx_commit=1&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#5A687D;" vertex="1" parent="1">
+          <mxGeometry x="31.5" y="576" width="230" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
