@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T11:39:19.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="x5eGtSlL8AVIzxVGEEOr" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T12:17:33.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="wa8c4mhjTFQqHLBZ9nQT" version="15.7.4" type="github">
   <diagram id="S992L737y4yIW5Ho0LRY" name="Page-1">
     <mxGraphModel dx="1773" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="9vFWIDzpB-WMlndjmJIf-32" value="&lt;b&gt;&lt;font color=&quot;#006633&quot;&gt;执行器&lt;br&gt;&lt;/font&gt;&lt;/b&gt;与存储引擎交互&lt;br&gt;记录binlog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9vFWIDzpB-WMlndjmJIf-23">
           <mxGeometry x="30" y="269" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9vFWIDzpB-WMlndjmJIf-134" value="thread &lt;br&gt;binlog cache" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=10;fontColor=#333333;fillColor=#f5f5f5;verticalAlign=middle;strokeColor=#666666;align=center;" vertex="1" parent="9vFWIDzpB-WMlndjmJIf-23">
+        <mxCell id="9vFWIDzpB-WMlndjmJIf-134" value="thread &lt;br&gt;binlog caches" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=10;fontColor=#333333;fillColor=#f5f5f5;verticalAlign=middle;strokeColor=#666666;align=center;" vertex="1" parent="9vFWIDzpB-WMlndjmJIf-23">
           <mxGeometry x="43" y="322" width="100" height="28" as="geometry" />
         </mxCell>
         <mxCell id="9vFWIDzpB-WMlndjmJIf-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;" edge="1" parent="9vFWIDzpB-WMlndjmJIf-23" source="9vFWIDzpB-WMlndjmJIf-3" target="9vFWIDzpB-WMlndjmJIf-26">
@@ -263,6 +263,9 @@
             <mxPoint x="488" y="80" as="sourcePoint" />
             <mxPoint x="540" y="205" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9vFWIDzpB-WMlndjmJIf-137" value="&lt;span style=&quot;color: rgb(36 , 41 , 46) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;防止数据丢失参数：&lt;br&gt;sync_binlog=1&lt;br&gt;&lt;/span&gt;&lt;p style=&quot;box-sizing: border-box ; margin: 0px 0px 16px ; font-size: 14px ; line-height: 26px ; padding: 0px ; color: rgb(36 , 41 , 46) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;innodb_flush_log_at_trx_commit=1&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#5A687D;" vertex="1" parent="1">
+          <mxGeometry x="20" y="575" width="230" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
