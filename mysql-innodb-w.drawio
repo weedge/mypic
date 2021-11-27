@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-27T06:59:57.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3C_6IalQOXt8xK3ioPH7" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-27T09:05:00.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="SuZ_-IV5hoJqNS8i_yPI" version="15.8.6" type="github">
   <diagram id="S992L737y4yIW5Ho0LRY" name="Page-1">
     <mxGraphModel dx="2233" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
           <mxGeometry x="170" y="502" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9vFWIDzpB-WMlndjmJIf-113" value="2. 执行器修改数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#5A687D;" parent="9vFWIDzpB-WMlndjmJIf-23" vertex="1">
-          <mxGeometry x="134" y="281" width="110" height="20" as="geometry" />
+          <mxGeometry x="134" y="278" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9vFWIDzpB-WMlndjmJIf-110" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;prepare阶段(redo log prepare状态)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;调用innodb存储引擎操作接口：&lt;br&gt;innobase_xa_prepare接口&lt;br&gt;操作Buffer Pool中的记录&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;innobase_flush_logs接口&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;redo/undo log 刷盘&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#5A687D;" parent="9vFWIDzpB-WMlndjmJIf-23" vertex="1">
           <mxGeometry x="263" y="102" width="210" height="80" as="geometry" />
@@ -284,12 +284,12 @@
             <mxPoint x="120" y="515" as="sourcePoint" />
             <mxPoint x="170" y="465" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="375" />
+              <mxPoint x="230" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9vFWIDzpB-WMlndjmJIf-143" value="&lt;b&gt;commit阶段(redo log commit标识)&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(90 , 104 , 125) ; font-size: 11px&quot;&gt;调用innodb存储引擎操作接口：&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#5a687d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;innobase_commit接口&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;将redo log中已经prepare的事务写入commit标识&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="257" y="397" width="270" height="60" as="geometry" />
+        <mxCell id="9vFWIDzpB-WMlndjmJIf-143" value="&lt;b&gt;commit阶段(redo log commit标识)&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(90 , 104 , 125) ; font-size: 11px&quot;&gt;调用innodb存储引擎操作接口：&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#5a687d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;innobase_commit接口&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;将redo log中已经prepare的事务写入commit标识&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(90 , 104 , 125)&quot;&gt;提交,释放事务&lt;/span&gt;&lt;font color=&quot;#5a687d&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="261" y="401" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9vFWIDzpB-WMlndjmJIf-149" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#006633;strokeColor=#000000;curved=1;exitX=-0.005;exitY=0.821;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="9vFWIDzpB-WMlndjmJIf-63" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
