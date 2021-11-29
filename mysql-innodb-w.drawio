@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-27T09:05:00.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="SuZ_-IV5hoJqNS8i_yPI" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T04:21:54.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="kPzZ4epeFLmHqy-rOEgm" version="15.8.6" type="github">
   <diagram id="S992L737y4yIW5Ho0LRY" name="Page-1">
-    <mxGraphModel dx="2233" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,7 +118,7 @@
           <mxGeometry x="-211" y="245" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9vFWIDzpB-WMlndjmJIf-25" value="查询缓存" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="225" y="233" width="94" height="40" as="geometry" />
+          <mxGeometry x="249" y="233" width="94" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9vFWIDzpB-WMlndjmJIf-67" value="" style="endArrow=none;html=1;fontSize=11;fontColor=#000000;exitX=0.912;exitY=0.002;exitDx=0;exitDy=0;entryX=0.019;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classicThin;startFill=1;curved=1;endFill=0;exitPerimeter=0;" parent="1" source="9vFWIDzpB-WMlndjmJIf-32" target="9vFWIDzpB-WMlndjmJIf-63" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -129,7 +129,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9vFWIDzpB-WMlndjmJIf-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;startArrow=classicThin;startFill=1;" parent="1" target="9vFWIDzpB-WMlndjmJIf-25" edge="1">
+        <mxCell id="9vFWIDzpB-WMlndjmJIf-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;startArrow=classicThin;startFill=1;dashed=1;dashPattern=1 2;" parent="1" target="9vFWIDzpB-WMlndjmJIf-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="202" y="253" as="sourcePoint" />
           </mxGeometry>
@@ -240,7 +240,7 @@
         <mxCell id="9vFWIDzpB-WMlndjmJIf-124" value="4. 更新buffer pool 中的数据记录&lt;br&gt;对应的页变成dirty page&lt;br&gt;写入flush list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#5A687D;" parent="1" vertex="1">
           <mxGeometry x="584" y="157" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9vFWIDzpB-WMlndjmJIf-125" value="" style="endArrow=classic;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;curved=1;dashed=1;entryX=0.267;entryY=0.187;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9vFWIDzpB-WMlndjmJIf-124" edge="1" target="9vFWIDzpB-WMlndjmJIf-63">
+        <mxCell id="9vFWIDzpB-WMlndjmJIf-125" value="" style="endArrow=classic;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;curved=1;dashed=1;entryX=0.267;entryY=0.187;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9vFWIDzpB-WMlndjmJIf-124" target="9vFWIDzpB-WMlndjmJIf-63" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="682" y="195" as="sourcePoint" />
             <mxPoint x="734" y="320" as="targetPoint" />
