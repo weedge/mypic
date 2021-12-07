@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T10:29:46.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="ShYTONb8lbTtpSX-AYCW" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T12:54:50.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="QivCWiQONGZAFFDxuet9" version="15.8.6" type="github">
   <diagram id="zYkpqrjhrI2a45teZ2bl" name="Page-1">
     <mxGraphModel dx="946" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry y="263" width="840" height="727" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-7" value="work pool (:9000)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="140" y="413" width="250" height="211" as="geometry" />
+          <mxGeometry x="140" y="413" width="250" height="217" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-1" value="nginx&lt;br&gt;(web服务)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="143" width="120" height="90" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="354" y="294" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img5.fanhaobai.com/2017/10/internal-php-fpm/9d9d0bb5-d970-4536-aa55-0f885648e551.png;imageBackground=none;" parent="1" vertex="1">
-          <mxGeometry x="239" y="1020" width="349.58" height="320" as="geometry" />
+          <mxGeometry x="239" y="1020" width="415.13" height="380" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-10" value="fpm_scoreboard_proc_s&lt;br&gt;(mmap)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=0;direction=south;horizontal=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="193" y="445" width="36" height="133" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry x="240" y="553" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-21" value="work pool (:9001)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="476" y="412" width="220" height="210" as="geometry" />
+          <mxGeometry x="476" y="412" width="220" height="218" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-22" value="fpm_scoreboard_proc_s&lt;br&gt;(mmap)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=0;direction=south;horizontal=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="485" y="437" width="36" height="133" as="geometry" />
@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-1" value="&lt;b&gt;php-fmp应用服务启动时&lt;/b&gt;&lt;br&gt;master process&lt;br&gt;加载配置初始化参数&lt;br&gt;初始化listen fds&lt;br&gt;初始化管道(signal/stdout/stderr)&lt;br&gt;根据端口初始对应工作池资源&lt;br&gt;初始化工作池共享内存(&lt;span style=&quot;color: rgb(51 , 51 , 51) ; background-color: rgb(245 , 245 , 245)&quot;&gt;fpm_scoreboard_s&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; background-color: rgb(245 , 245 , 245)&quot;&gt;(mmap/spinlock))&lt;br&gt;&lt;/span&gt;初始化工作进程共享内存(&lt;span style=&quot;color: rgb(51 , 51 , 51) ; background-color: rgb(245 , 245 , 245)&quot;&gt;fpm_scoreboard_proc_s&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; background-color: rgb(245 , 245 , 245)&quot;&gt;(mmap/spinlock)&lt;/span&gt;)&lt;br&gt;每个池 fork 工作子进程&lt;br&gt;根据配置初始化子进程资源(fpm_child_init)&lt;br&gt;子进程接受请求连接(循环fcgi_accept_request）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="9" y="653" width="370" height="160" as="geometry" />
+          <mxGeometry x="8" y="661" width="370" height="160" as="geometry" />
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-5" value="fcgi_accept_request" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;opacity=50;strokeColor=#b85450;fontColor=#EA6B66;align=right;" vertex="1" parent="1">
           <mxGeometry x="177.32" y="412" width="29" height="32" as="geometry" />
@@ -118,7 +118,7 @@
           <mxGeometry x="537" y="437" width="29" height="32" as="geometry" />
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-9" value="&lt;span style=&quot;color: rgb(234 , 107 , 102)&quot;&gt;fcgi_accept_request&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;opacity=50;strokeColor=#b85450;align=left;" vertex="1" parent="1">
-          <mxGeometry x="650" y="418" width="29" height="32" as="geometry" />
+          <mxGeometry x="650" y="416" width="29" height="32" as="geometry" />
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#5A687D;strokeWidth=1;opacity=50;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;strokeColor=#67AB9F;" edge="1" parent="1" target="3jl18JNsWPMRGAtueJ_B-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -252,7 +252,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-41" value="&lt;b&gt;php-fmp应用服务运行时&lt;br&gt;&lt;/b&gt;worker process&lt;br&gt;子进程建立连接之后接受请求监听读事件&lt;br&gt;读取fastCGI请求内容直到请求数据完全到达&lt;br&gt;执行 php_request_startup()，此阶段会调用每个扩展的PHP_RINIT_FUNCTION()&lt;br&gt;php_fopen_primary_script() 加载php文件；&lt;br&gt;然后把工作进程相关状态信息写入&lt;span style=&quot;color: rgb(51 , 51 , 51) ; background-color: rgb(245 , 245 , 245)&quot;&gt;fpm_scoreboard_proc_s中，方便主进程管理；&lt;/span&gt;&lt;br&gt;由 php_execute_script() 完成 PHP 脚本的编译、执行&lt;span style=&quot;color: rgb(103 , 171 , 159)&quot;&gt;zend_execute_scripts&lt;/span&gt;;&lt;br&gt;请求完成后执行 php_request_shutdown()，此阶段会调用每个扩展的：&lt;br&gt;PHP_RSHUTDOWN_FUNCTION()，然后继续等待下一个请求。&lt;span style=&quot;color: rgb(103 , 171 , 159)&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="383" y="647" width="440" height="160" as="geometry" />
+          <mxGeometry x="383" y="665" width="440" height="160" as="geometry" />
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;fontColor=#7EA6E0;opacity=50;curved=1;jumpStyle=sharp;jumpSize=5;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -267,13 +267,16 @@
           <mxGeometry x="730" y="103" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-47" value="&lt;b&gt;php-fmp应用服务运行时动态管理工作进程&lt;br&gt;&lt;/b&gt;主进程通过信号管道(signal)对工作池中的子进程进行控制管理(kill, fork)&lt;br&gt;主进程通过标准输出管道(stdout/stderr)获取子进程的输出信息&lt;br&gt;主进程和工作进程通过共享内存的方式(内部记分板结构scoreboard)，实现工作进程运行时的监控(工作进程状态), &lt;br&gt;主进程会定时轮训检查工作进程数目，根据进程池管理策略来处理是否扩缩容，检查工作进程处理请求是否超时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="100" y="840" width="610" height="80" as="geometry" />
+          <mxGeometry x="100" y="847" width="610" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-48" value="fpm php工作进程池管理交互" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#67AB9F;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="516.8199999999999" y="970" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-49" value="weedge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#67AB9F;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="690" y="970" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UesM6g5A7Yxn22nxan8f-50" value="核心数据结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#5A687D;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1000" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
