@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T14:37:19.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="LDQSqHg8fNbMCmK3yJmx" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-08T08:15:44.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Ey417WNyGm9F7KitHLit" version="15.8.6" type="github">
   <diagram id="zYkpqrjhrI2a45teZ2bl" name="Page-1">
     <mxGraphModel dx="946" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="140" y="413" width="250" height="217" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-1" value="nginx&lt;br&gt;(web服务)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="345" y="143" width="120" height="90" as="geometry" />
+          <mxGeometry x="300" y="110" width="210" height="123" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-2" value="nginx&lt;br&gt;(router LB)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="345" y="24" width="120" height="60" as="geometry" />
+          <mxGeometry x="345" y="6" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-3" value="http_fastcgi_module" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;dashPattern=1 4;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="349.82" y="221" width="110" height="30" as="geometry" />
@@ -231,8 +231,8 @@
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#7EA6E0;strokeColor=#7EA6E0;strokeWidth=1;opacity=50;curved=1;jumpStyle=sharp;jumpSize=5;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="3jl18JNsWPMRGAtueJ_B-1" target="3jl18JNsWPMRGAtueJ_B-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="274" as="sourcePoint" />
-            <mxPoint x="430" y="224" as="targetPoint" />
+            <mxPoint x="352.5" y="92" as="sourcePoint" />
+            <mxPoint x="430" y="206" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-39" value="http OK response" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#7EA6E0;" parent="UesM6g5A7Yxn22nxan8f-35" vertex="1" connectable="0">
@@ -242,8 +242,8 @@
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-36" value="" style="endArrow=none;startArrow=classicThin;html=1;rounded=0;fontSize=12;fontColor=#7EA6E0;strokeColor=#b85450;strokeWidth=1;opacity=50;curved=1;jumpStyle=sharp;jumpSize=5;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;startFill=1;endFill=0;fillColor=#f8cecc;" parent="1" source="3jl18JNsWPMRGAtueJ_B-1" target="3jl18JNsWPMRGAtueJ_B-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="274" as="sourcePoint" />
-            <mxPoint x="430" y="224" as="targetPoint" />
+            <mxPoint x="457.5" y="92" as="sourcePoint" />
+            <mxPoint x="430" y="206" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UesM6g5A7Yxn22nxan8f-38" value="&lt;font color=&quot;#f19c99&quot;&gt;http GET/POST request&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#7EA6E0;" parent="UesM6g5A7Yxn22nxan8f-36" vertex="1" connectable="0">
