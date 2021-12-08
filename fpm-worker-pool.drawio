@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T08:15:44.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Ey417WNyGm9F7KitHLit" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-08T09:06:17.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="nPSXvaV6WKUierkb83Y-" version="15.8.6" type="github">
   <diagram id="zYkpqrjhrI2a45teZ2bl" name="Page-1">
     <mxGraphModel dx="946" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="3jl18JNsWPMRGAtueJ_B-2" value="nginx&lt;br&gt;(router LB)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="6" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3jl18JNsWPMRGAtueJ_B-3" value="http_fastcgi_module" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;dashPattern=1 4;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="3jl18JNsWPMRGAtueJ_B-3" value="http_fastcgi_module&lt;br&gt;(upstream)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;dashPattern=1 4;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="349.82" y="221" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3jl18JNsWPMRGAtueJ_B-5" value="php-fpm&lt;br&gt;(应用服务)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
