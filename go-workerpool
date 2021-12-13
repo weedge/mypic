@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T14:31:21.218Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="NTMceuvNeK2Vys421HE_" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T14:42:18.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="IVyNolDbpqTFjUQw9hCe" version="15.8.6" type="github">
   <diagram id="88T9TFLLTVwQQfU9NU3B" name="Page-1">
     <mxGraphModel dx="946" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
         <mxCell id="P1GBzerWLDS_S2NH-vre-43" value="&lt;span style=&quot;color: rgb(0 , 76 , 153)&quot;&gt;task&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="205" y="200" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="P1GBzerWLDS_S2NH-vre-44" value="&lt;font color=&quot;#a680b8&quot;&gt;初始设置一个等待时间timer，&lt;br&gt;如果等待时间超时，&lt;br&gt;还未从任务队列和等待队列中轮训到任务(idle==false)&lt;br&gt;并且有worker(workerCount&amp;gt;0)&lt;br&gt;则发送一个空任务(nil)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#00CC00;" vertex="1" parent="1">
+        <mxCell id="P1GBzerWLDS_S2NH-vre-44" value="&lt;font color=&quot;#a680b8&quot;&gt;初始设置一个等待时间(idleTimeout)timer，&lt;br&gt;如果等待时间超时，&lt;br&gt;还未从任务队列和等待队列中轮训到任务(idle==false)&lt;br&gt;并且有worker(workerCount&amp;gt;0)&lt;br&gt;则发送一个空任务(nil)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#00CC00;" vertex="1" parent="1">
           <mxGeometry x="292" y="441" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="P1GBzerWLDS_S2NH-vre-45" value="&lt;font color=&quot;#a680b8&quot;&gt;如果获取的是空任务，&lt;br&gt;return回收协程worker&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#00CC00;" vertex="1" parent="1">
