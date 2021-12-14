@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T14:42:18.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="IVyNolDbpqTFjUQw9hCe" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-14T03:46:21.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="hJYSTzUJYmwx1tRXE_R5" version="15.8.6" type="github">
   <diagram id="88T9TFLLTVwQQfU9NU3B" name="Page-1">
     <mxGraphModel dx="946" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,8 +42,8 @@
         <mxCell id="P1GBzerWLDS_S2NH-vre-14" value="&lt;font color=&quot;#ff3333&quot;&gt;go dispatch 轮训&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#7ea6e0&quot;&gt;如果等待队列不为空，&lt;br&gt;则任务放入等待队列队尾中，&lt;br&gt;并且从队列队头获取任务分发给工作队列；&lt;br&gt;&lt;/font&gt;如果等待队列为空从任务队列中&lt;br&gt;获取任务分发给工作队列&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="311" y="341" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="P1GBzerWLDS_S2NH-vre-15" value="阻塞chan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#67AB9F;" vertex="1" parent="1">
-          <mxGeometry x="485" y="250" width="70" height="20" as="geometry" />
+        <mxCell id="P1GBzerWLDS_S2NH-vre-15" value="unbuffer chan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#67AB9F;" vertex="1" parent="1">
+          <mxGeometry x="475" y="250" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P1GBzerWLDS_S2NH-vre-16" value="buffer len 1 chan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="130" y="250" width="110" height="20" as="geometry" />
